@@ -8,6 +8,7 @@ import {FormsModule, ReactiveFormsModule} from "@angular/forms";
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { LoginComponent } from './pages/login/login.component';
 import { DashboardComponent } from './pages/dashboard/dashboard.component';
+import { LandingPageComponent } from './pages/landing-page/landing-page.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { DashboardComponent } from './pages/dashboard/dashboard.component';
     SignUpComponent,
     NavbarComponent,
     LoginComponent,
-    DashboardComponent
+    DashboardComponent,
+    LandingPageComponent
   ],
   imports: [
     BrowserModule,

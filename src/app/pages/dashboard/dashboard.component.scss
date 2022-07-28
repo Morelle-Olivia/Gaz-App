@@ -2,6 +2,7 @@
   width: 15rem;
   position: absolute;
   margin-top: 10%;
+  color: #000000;
   //margin-left: 30%;
   font-family: "Roboto Light";
 }
@@ -9,4 +10,8 @@
 .logout {
   color: #033e3e;
   font-size: 14px;
+}
+
+a {
+  text-decoration: none;
 }
