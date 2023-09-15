@@ -6,29 +6,14 @@
   font-family: "Roboto Light";
 }
 
-.logout {
-  color: #033e3e;
-  font-size: 14px;
-}
-
-a {
-  text-decoration: none;
-}
-
-.dashboard_nav {
-  width: 18%;
-  //height: 20%;
-}
 .home_page {
-  //display: flex;
-  height: auto;
+  height: 500px;
   padding: 0% 2%;
+  overflow-y: auto;
 }
 .card_description {
   width: 55%;
   gap: 10%;
-  //display: flex;
-  //justify-content: space-between;
 }
 
 .sign_in_path {
@@ -38,4 +23,13 @@ a {
 }
 .sign_in_link {
   color: #229c9c;
+}
+
+.gaz_image {
+  height: 90%;
+  width: 90%;
+}
+
+.gaz_description {
+  font-size: 13px;
 }

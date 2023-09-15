@@ -9,6 +9,8 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { LoginComponent } from './pages/login/login.component';
 import { DashboardComponent } from './pages/dashboard/dashboard.component';
 import { LandingPageComponent } from './pages/landing-page/landing-page.component';
+import { SidebarComponent } from './components/sidebar/sidebar.component';
+import { TransactionsComponent } from './pages/transactions/transactions.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +19,9 @@ import { LandingPageComponent } from './pages/landing-page/landing-page.componen
     NavbarComponent,
     LoginComponent,
     DashboardComponent,
-    LandingPageComponent
+    LandingPageComponent,
+    SidebarComponent,
+    TransactionsComponent
   ],
   imports: [
     BrowserModule,

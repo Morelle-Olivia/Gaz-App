@@ -4,6 +4,7 @@ import {SignUpComponent} from "./pages/sign-up/sign-up.component";
 import {LoginComponent} from "./pages/login/login.component";
 import {DashboardComponent} from "./pages/dashboard/dashboard.component";
 import {LandingPageComponent} from "./pages/landing-page/landing-page.component";
+import {TransactionsComponent} from "./pages/transactions/transactions.component";
 
 const routes: Routes = [
   {
@@ -21,6 +22,10 @@ const routes: Routes = [
   {
     path: 'web/landing-page',
     component: LandingPageComponent,
+  },
+  {
+    path: 'web/transactions',
+    component: TransactionsComponent,
   },
 ]
 
